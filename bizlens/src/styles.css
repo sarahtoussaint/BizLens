@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #2E3A59, #5B76FF);
+    color: white;
+  }
+  
+  .homepage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .homepage-content {
+    max-width: 600px;
+  }
+  
+  .homepage-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .homepage-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .homepage-button {
+    padding: 1rem 2rem;
+    background-color: white;
+    color: #2E3A59;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .homepage-button:hover {
+    opacity: 0.9;
+  }
+  
